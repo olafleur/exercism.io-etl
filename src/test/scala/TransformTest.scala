@@ -21,7 +21,6 @@ class TransformTest extends FunSuite with Matchers {
   }
 
   test ("full dataset") {
-    pending
     val old = Map(
       1 -> Seq("A", "E", "I", "O", "U", "L", "N", "R", "S", "T"),
       2 -> Seq("D", "G"),
