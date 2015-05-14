@@ -15,7 +15,6 @@ class TransformTest extends FunSuite with Matchers {
   }
 
   test ("more keys") {
-    pending
     val old = Map(1 -> Seq("APPLE", "ARTICHOKE"), 2 -> Seq("BOAT", "BALLERINA"))
     val expected = Map("apple" -> 1, "artichoke" -> 1, "boat" -> 2, "ballerina" -> 2)
     ETL.transform(old) should be (expected)
