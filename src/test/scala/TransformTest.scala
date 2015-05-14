@@ -8,7 +8,6 @@ class TransformTest extends FunSuite with Matchers {
   }
 
   test ("transform more values") {
-    pending
     val old = Map(1 -> Seq("WORLD", "GSCHOOLERS"))
     val expected = Map("world" -> 1, "gschoolers" -> 1)
 
